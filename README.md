@@ -6,6 +6,9 @@
 ```properties
 # 配置Admin Server的地址
 spring.boot.admin.url=http://localhost:8000
+# 集成 SpringSecurity 之后需要配置用户名密码
+spring.boot.admin.username=admin
+spring.boot.admin.password=admin
 #false 关闭安全验证
 management.security.enabled=false
 # 开启actuator 全部端点权限
